@@ -9,7 +9,7 @@ import { ProjectsPage} from '../pages/ProjectsPage';
 
 export function Header() {
     return (
-        <div>
+        <div className="flex flex-row justify-between">
             <HeaderNameWithRedirectToHomePage />
             <NavBar />
               <Routes>
