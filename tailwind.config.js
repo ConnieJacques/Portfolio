@@ -9,6 +9,7 @@ module.exports = {
       },
       fontFamily: {
         'cursive-header': 'Homemade Apple, cursive',
+        'courier': ['courier']
       }
     },
   },
