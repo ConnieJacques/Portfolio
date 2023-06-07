@@ -26,48 +26,33 @@
         height: 1px;
         background: 1px;
     }
-
     .firstXLine {
         position: relative;
         z-index: 0;
-        /* height: 80vh; */
+        height: 80vh;
     }
-    
     .firstXLine::before {
-        /* we want to draw a line, so no content needed */
         content: '';
-        /* this sets the position and size of the pseudo-element */
         position: absolute;
-        bottom: 85px;
-        /* right: 20; */
+        bottom: 3vh;
         width: 100%;
-        height: 2px;
+        height: 4px;
         background-color: #DFF5EF;
-    
-        /* draw behind child elements */
         z-index: -1;
     }
-
     .secondXLine {
         position: relative;
         z-index: 0;
     }
-    
     .secondXLine::before {
-        /* we want to draw a line, so no content needed */
         content: '';
-        /* this sets the position and size of the pseudo-element */
         position: absolute;
-        bottom: 70px;
-        /* right: 20; */
+        bottom: 5vh;
         width: 100%;
-        height: 2px;
+        height: 4px;
         background-color: #DFF5EF;
-    
-        /* draw behind child elements */
         z-index: -1;
     }
-
     .webkitDefault {
         -webkit-tap-highlight-color: transparent;
     }
