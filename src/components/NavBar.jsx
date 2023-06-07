@@ -12,7 +12,7 @@ export function NavBar() {
     return(
         <div className="flex items-center">
             <div>
-                <section className="MOBILE-MENU flex sm:hidden">
+                <section className="MOBILE-MENU flex sm:hidden mr-4">
                     <div className="HAMBURGER-ICON space-y-2" 
                         onClick={() => setIsNavOpen((prev) => !prev)}>
                             <span className="block h-0.5 w-8 bg-dark-green"></span>
