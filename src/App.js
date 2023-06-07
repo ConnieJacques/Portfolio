@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from "react-router-dom";
-import { PageLayout } from './Layout/PageLayout';
-import { HomePage } from './pages/HomePage'
+import { PageLayout } from './layout/PageLayout';
+import { HomePage } from './pages/HomePage';
 import { AboutMePage} from './pages/AboutMePage';
 import { ContactPage } from './pages/ContactPage';
 import { ProjectsPage} from './pages/ProjectsPage';
