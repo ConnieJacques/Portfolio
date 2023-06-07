@@ -1,8 +1,12 @@
-import { Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import { useState } from "react";
 
 
-export function NavBar() {
+export function NavBar(props) {
+    let activeNavStyle = {
+        textDecorationLine: "underline"
+    }
+
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return(
@@ -35,18 +39,18 @@ export function NavBar() {
 
 
         <nav>
-            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-end text-lg">
+            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-end text-lg underline-offset-[5px]">
                 <li className="text-dark-green uppercase pb-12 pr-5">
-                    <Link to='/'>Home</Link>
+                    <NavLink to='/' style={({isActive}) => isActive ? activeNavStyle : undefined}>Home</NavLink>
                 </li>
                 <li className="text-dark-green uppercase pb-12 pr-5">
-                    <Link to='/projects'>Projects</Link>
+                    <NavLink to='/projects' style={({isActive}) => isActive ? activeNavStyle : undefined}>Projects</NavLink>
                 </li>
                 <li className="text-dark-green uppercase pb-12 pr-5">
-                    <Link to='/about'>About Me</Link>
+                    <NavLink to='/about' style={({isActive}) => isActive ? activeNavStyle : undefined}>About</NavLink>
                 </li>
                 <li className="text-dark-green uppercase pr-5">
-                    <Link to='/contact'>Contact Me</Link>
+                    <NavLink to='/contact' style={({isActive}) => isActive ? activeNavStyle : undefined}>Contact</NavLink>
                 </li>
             </ul>
         </nav>
@@ -55,15 +59,18 @@ export function NavBar() {
                     </div>
                 </section>
                 <nav>
-            <ul className="DESKTOP-MENU hidden space-x-8 text-dark-green font-courier sm:flex sm:text-2xl">
+            <ul className="DESKTOP-MENU hidden space-x-8 text-dark-green font-railway uppercase font-medium sm:flex sm:text-sm md:text-lg md:text-xl lg:text-xl xl:text-2xl underline-offset-[5px]">
                 <li>
-                    <Link to='/projects'>Projects</Link>
+                    <NavLink to='/' style={({isActive}) => isActive ? activeNavStyle : undefined}>Home</NavLink>
                 </li>
                 <li>
-                    <Link to='/about'>About</Link>
+                    <NavLink to='/projects' style={({isActive}) => isActive ? activeNavStyle : undefined}>Projects</NavLink>
                 </li>
                 <li>
-                    <Link to='/contact'>Contact</Link>
+                    <NavLink to='/about' style={({isActive}) => isActive ? activeNavStyle : undefined}>About</NavLink>
+                </li>
+                <li className="md:pr-4">
+                    <NavLink to='/contact' style={({isActive}) => isActive ? activeNavStyle : undefined}>Contact</NavLink>
                 </li>
             </ul>
         </nav>
