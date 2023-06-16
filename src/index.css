@@ -26,33 +26,34 @@
         height: 1px;
         background: 1px;
     } */
-    .firstXLine {
+    /* .firstXLine {
         position: relative;
-        z-index: 0;
+        z-index: -5;
         height: 69vh;
-    }
-    .firstXLine::before {
+        min-height: min-content;
+    } */
+    /* .firstXLine::before {
         content: '';
         position: absolute;
         bottom: 3vh;
         width: 100%;
         height: 2px;
         background-color: #DFF5EF;
-        z-index: -1;
-    }
-    .secondXLine {
+        z-index: -6;
+    } */
+    /* .secondXLine {
         position: relative;
-        z-index: 0;
-    }
-    .secondXLine::before {
+        z-index: -5;
+    } */
+    /* .secondXLine::before {
         content: '';
         position: absolute;
         bottom: 5vh;
         width: 100%;
         height: 2px;
         background-color: #DFF5EF;
-        z-index: -1;
-    }
+        z-index: -6;
+    } */
     .webkitDefault {
         -webkit-tap-highlight-color: transparent;
     }

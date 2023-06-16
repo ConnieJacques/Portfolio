@@ -68,7 +68,7 @@ export function NavBar() {
                 </section>
                 
                     <nav>
-                        <ul className="DESKTOP-MENU hidden space-x-0 text-dark-green font-railway uppercase font-medium sm:flex sm:text-sm md:text-lg md:text-xl lg:text-xl xl:text-2xl underline-offset-[5px]">
+                        <ul className="DESKTOP-MENU hidden space-x-0 text-dark-green font-railway uppercase font-medium sm:flex sm:text-sm md:text-lg md:text-xl">
                             <li>
                                 <NavLink to='/' style={({isActive}) => isActive ? desktopActiveNavStyle : desktopInactiveNavStyle}>Home</NavLink>
                             </li>
