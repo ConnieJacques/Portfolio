@@ -7,6 +7,14 @@ export function NavBar() {
         textDecorationLine: "underline"
     }
 
+    let desktopActiveNavStyle = {
+        display: 'none'
+    }
+
+    let desktopInactiveNavStyle = {
+        paddingRight: '1rem'
+    }
+
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return(
@@ -60,18 +68,18 @@ export function NavBar() {
                 </section>
                 
                     <nav>
-                        <ul className="DESKTOP-MENU hidden space-x-8 text-dark-green font-railway uppercase font-medium sm:flex sm:text-sm md:text-lg md:text-xl lg:text-xl xl:text-2xl underline-offset-[5px]">
+                        <ul className="DESKTOP-MENU hidden space-x-0 text-dark-green font-railway uppercase font-medium sm:flex sm:text-sm md:text-lg md:text-xl lg:text-xl xl:text-2xl underline-offset-[5px]">
                             <li>
-                                <NavLink to='/' style={({isActive}) => isActive ? activeNavStyle : undefined}>Home</NavLink>
+                                <NavLink to='/' style={({isActive}) => isActive ? desktopActiveNavStyle : desktopInactiveNavStyle}>Home</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/projects' style={({isActive}) => isActive ? activeNavStyle : undefined}>Projects</NavLink>
+                                <NavLink to='/projects' style={({isActive}) => isActive ? desktopActiveNavStyle : desktopInactiveNavStyle}>Projects</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/about' style={({isActive}) => isActive ? activeNavStyle : undefined}>About</NavLink>
+                                <NavLink to='/about' style={({isActive}) => isActive ? desktopActiveNavStyle : desktopInactiveNavStyle}>About</NavLink>
                             </li>
-                            <li className="md:pr-4">
-                                <NavLink to='/contact' style={({isActive}) => isActive ? activeNavStyle : undefined}>Contact</NavLink>
+                            <li className="md:pr-8">
+                                <NavLink to='/contact' style={({isActive}) => isActive ? desktopActiveNavStyle : desktopInactiveNavStyle}>Contact</NavLink>
                             </li>
                         </ul>
                     </nav>
