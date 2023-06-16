@@ -1,6 +1,7 @@
 import gitHubIcon from '../images/icons8-github.svg'
 import linkedInIcon from '../images/icons8-linkedin.svg'
 import emailIcon from '../images/icons8-email-50.png'
+import { ContactForm } from '../components/ContactForm';
 
 export function ContactPage() {
     const email = "connie.jacques91@gmail.com";
@@ -15,24 +16,25 @@ export function ContactPage() {
                 </div>
                 <div className=''>
                     <a href={`mailto:${email}?subject=${encodeURIComponent(subject)}`}>
-                        <p className='flex flex-row items-center pb-6 pt-12'>
+                        <div className='flex flex-row items-center pb-6 pt-12'>
                             <img src={emailIcon} alt="GitHub Icon" className="h-10 w-10 md:h-8 md:w-8 md:mr-3"/><p className='pl-4'>connie.jacques91@gmail.com</p>
-                        </p>
+                        </div>
                     </a>
 
                     <a href="https://www.linkedin.com/in/connie-jacques-53046b261/" target="_blank" rel="noreferrer">
-                        <p className='flex flex-row items-center py-6'>
+                        <div className='flex flex-row items-center py-6'>
                             <img src={linkedInIcon} alt="GitHub Icon" className="h-10 w-10 md:h-8 md:w-8 md:mr-3"/><p className='pl-4'>/connie-jacques-53046b261/</p>
-                        </p>
+                        </div>
                     </a>
 
                     <a href="https://github.com/ConnieJacques" target="_blank" rel="noreferrer">
-                        <p className='flex flex-row items-center pt-6'>
+                        <div className='flex flex-row items-center pt-6'>
                             <img src={gitHubIcon} alt="GitHub Icon" className="h-10 w-10 md:h-8 md:w-8 md:mr-3"/><p className='pl-4'>github.com/ConnieJacques</p>
-                        </p>
+                        </div>
                     </a>
                 </div>
             </div>
+            <ContactForm />
         </section>
     ) 
 }
