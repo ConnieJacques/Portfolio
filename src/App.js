@@ -11,7 +11,7 @@ import { ProjectsPage} from './pages/ProjectsPage';
 
 function App() {
   return (
-    <div className="webkitDefault">
+    <div className="webkitDefault bg-black">
       <Routes>
           <Route element={<PageLayout />}>
               <Route path="/" element={<HomePage />} />
