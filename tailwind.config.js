@@ -5,11 +5,14 @@ module.exports = {
     extend: {
       colors: {
         'light-green': '#DFF5EF',
-        'dark-green': '#308C88'
+        'dark-green': '#308C88',
+        'saturated-green': '#CDEFE5'
       },
       fontFamily: {
         'cursive-header': 'Homemade Apple, cursive',
-        'courier': ['courier']
+        // 'courier': ['courier'],
+        // 'lato': ['lato'],
+        'raleway': 'Raleway, sans-serif'
       }
     },
   },
