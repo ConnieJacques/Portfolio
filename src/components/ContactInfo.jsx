@@ -8,12 +8,14 @@ export function ContactInfo() {
 
     return (
         <section className='h-[80vh] sm:h-[85vh]'>
-            <div className='-z-1 absolute top-20 left-0 text-white font-railway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+            <div className='-z-1 absolute top-20 left-0 text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+                
                 <div className='flex flex-row'>
-                    <p className='font-lato tracking-widest uppercase font-bold text-4xl text-light-green underline underline-offset-4 decoration-dark-green'>Contact M</p>
-                    <p className='font-lato uppercase font-bold text-4xl text-light-green underline underline-offset-4 decoration-dark-green'>e</p>
+                    <p className='tracking-widest uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Contact M</p>
+                    <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p>
                 </div>
-                <div className=''>
+
+                <div>
                     <a href={`mailto:${email}?subject=${encodeURIComponent(subject)}`}>
                         <div className='flex flex-row items-center pb-6 pt-12'>
                             <img src={emailIcon} alt="GitHub Icon" className="h-10 w-10 md:h-8 md:w-8 md:mr-3"/><p className='pl-4'>connie.jacques91@gmail.com</p>
