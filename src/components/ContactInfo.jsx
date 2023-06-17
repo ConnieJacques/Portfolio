@@ -11,8 +11,8 @@ export function ContactInfo() {
             <div className='-z-1 absolute top-20 left-0 text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
                 
                 <div className='flex flex-row'>
-                    <p className='tracking-widest uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Contact M</p>
-                    <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p>
+                    <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Contact Me</p>
+                    {/* <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p> */}
                 </div>
 
                 <div>
