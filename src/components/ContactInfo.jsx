@@ -2,17 +2,24 @@ import gitHubIcon from '../images/icons8-github.svg'
 import linkedInIcon from '../images/icons8-linkedin.svg'
 import emailIcon from '../images/icons8-email-50.png'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 export function ContactInfo() {
     const email = "connie.jacques91@gmail.com";
     const subject = "Interest in Web Development Work";
 
     return (
         <section className='h-[80vh] sm:h-[85vh]'>
-            <div className='-z-1 absolute top-20 left-0 text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+            {/* <div className='-z-1 absolute top-20 left-0 text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
+            <div className='text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
                 
                 <div className='flex flex-row'>
+                <div data-aos='slide-right' data-aos-duration="1500">
                     <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Contact Me</p>
                     {/* <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p> */}
+                </div>
                 </div>
 
                 <div>

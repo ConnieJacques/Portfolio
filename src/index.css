@@ -59,4 +59,8 @@
         /* -webkit-box-shadow: none;
         -moz-box-shadow: none; */
     }
+    body[data-aos-duration='5000'] [data-aos],
+    [data-aos][data-aos][data-aos-duration='5000'] {
+    transition-duration: 5000ms;
+  }
 }

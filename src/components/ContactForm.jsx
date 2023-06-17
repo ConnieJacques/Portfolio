@@ -18,11 +18,14 @@ export function ContactForm() {
 
   return (
     <section className='h-[80vh] sm:h-[85vh] xl:h-[0]'>
-        <div className='-z-1 absolute top-90 xl:top-20 w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 xl:pt-16 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
-            
+        {/* <div className='-z-1 absolute top-90 xl:top-20 w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 xl:pt-16 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
+        <div className='w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 xl:pt-16 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+
             <div className='flex flex-row'>
-                <p className='xl:hidden font-raleway font-bold uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Send a message</p>
+                <div data-aos='slide-right' data-aos-duration="1500">
+                    <p className='xl:hidden font-raleway font-bold uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Send a message</p>
                 {/* <p className='font-raleway font-bold self-end uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p> */}
+                </div>
             </div>
 
             <form ref={form} onSubmit={sendEmail} className='flex flex-col w-[70vw] xl:w-[35vw]'>
