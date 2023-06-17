@@ -21,7 +21,7 @@ export function Footer() {
                 <img src={gitHubIcon} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
             </a>
             <a href="https://www.etsy.com/au/shop/CoenobitaCollective" target="_blank" rel="noreferrer">
-                <img src={etsyIcon} alt="GitHub Icon" className="h-8 w-8 md:w-8"/>
+                <img src={etsyIcon} alt="GitHub Icon" className="h-9 w-9"/>
             </a>
             {/* <Copyright /> */}
         </div>

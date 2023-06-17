@@ -18,7 +18,7 @@ export function NavBar() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return(
-        <div className="flex items-center">
+        <div className="flex items-center font-raleway">
             <div>
                 <section className="MOBILE-MENU flex sm:hidden mr-4">
                     <div className="HAMBURGER-ICON space-y-2" 
@@ -68,7 +68,7 @@ export function NavBar() {
                 </section>
                 
                     <nav>
-                        <ul className="DESKTOP-MENU hidden space-x-0 text-dark-green font-railway uppercase font-medium sm:flex sm:text-sm md:text-lg md:text-xl">
+                        <ul className="DESKTOP-MENU hidden space-x-0 text-dark-green font-raleway uppercase font-medium sm:flex sm:text-sm md:text-lg md:text-xl">
                             <li>
                                 <NavLink to='/' style={({isActive}) => isActive ? desktopActiveNavStyle : desktopInactiveNavStyle}>Home</NavLink>
                             </li>
