@@ -13,7 +13,7 @@ export function ContactInfo() {
     return (
         <section className='h-[80vh] sm:h-[85vh]'>
             {/* <div className='-z-1 absolute top-20 left-0 text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
-            <div className='text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+            <div className='absolute z-1 top-[10vh] text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
                 
                 <div className='flex flex-row'>
                 <div data-aos='slide-right' data-aos-duration="1500">

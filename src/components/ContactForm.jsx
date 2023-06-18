@@ -19,7 +19,7 @@ export function ContactForm() {
   return (
     <section className='h-[80vh] sm:h-[85vh] xl:h-[0]'>
         {/* <div className='-z-1 absolute top-90 xl:top-20 w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 xl:pt-16 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
-        <div className='w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 xl:pt-16 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+        <div className='absolute z-2 xl:top-[10vh] w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 xl:pt-16 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
 
             <div className='flex flex-row'>
                 <div data-aos='slide-right' data-aos-duration="1500">
