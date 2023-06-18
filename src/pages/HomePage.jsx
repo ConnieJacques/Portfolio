@@ -4,6 +4,7 @@ AOS.init();
 
 export function HomePage() {
     return(
+        
         <div className="h-[80vh] sm:h-[85vh]">
             <div className='flex flex-col justify-center items-center h-[85vh]'>
                 <div data-aos="fade-in" data-aos-duration="5000">

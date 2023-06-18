@@ -1,6 +1,6 @@
 import { ContactForm } from "../components/ContactForm";
 import { ContactInfo } from "../components/ContactInfo";
-import { Background } from '../components/Background';
+// import { Background } from '../components/Background';
 
 
 // import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Dot } from 'pure-react-carousel';
@@ -27,7 +27,7 @@ export function ContactPage() {
             </CarouselProvider> */}
             <ContactInfo />
             <div className="sm:hidden">
-                <Background />
+                {/* <Background /> */}
             </div>
             <ContactForm />
         </div>
