@@ -16,9 +16,6 @@ const particlesInit = async (main) => {
                 "fullScreen": {
                 "enable": false,
                 },
-                // "background": {
-                //     "color": "#323233"
-                //     },
                 "particles": {
                     "number": {
                         "value": 220,
@@ -130,7 +127,7 @@ const particlesInit = async (main) => {
             }}
         />
     )
-
+}
 
 
             // SNOW
@@ -193,4 +190,3 @@ const particlesInit = async (main) => {
     //     />
     //     </div>
     // )
-}
