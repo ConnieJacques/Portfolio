@@ -1,35 +1,39 @@
 import { ContactForm } from "../components/ContactForm";
 import { ContactInfo } from "../components/ContactInfo";
-// import { Background } from '../components/Background';
-
-
-// import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Dot } from 'pure-react-carousel';
-
-
 
 
 export function ContactPage() {
+
     return (
         <div>
-            {/* <CarouselProvider className="p-0 m-0 *-0"
-                naturalSlideWidth={0}
-                naturalSlideHeight={0}
-                totalSlides={2}
-            >
+            <div className='h-[80dvh] sm:hidden'>
+                <div className='absolute z-1 top-[10dvh]'>
+                    <div className="carousel carousel-vertical w-[90vw] h-[80dvh] pt-0">
+                        <div id='item1' className="carousel-item h-full pt-20">
+                            <ContactInfo />
+                        </div> 
+                        <div id='item2' className="carousel-item h-full">
+                            <ContactForm />
+                        </div> 
+                    </div>
 
-                <Slider>
-                    <Slide index={0} className="text-white"><ContactInfo /></Slide>
-                    <Slide index={1} className="text-white h-0"><ContactForm /></Slide>
-                </Slider>
-                <ButtonBack className="text-white">Back</ButtonBack>
-                <ButtonNext className="text-white">Next</ButtonNext>
-                <Dot className="bg-white"/>
-            </CarouselProvider> */}
-            <ContactInfo />
-            <div className="sm:hidden">
-                {/* <Background /> */}
+                <div className='absolute top-[25dvh] left-0'>
+                    <div className='bg-saturated-green p-2 rounded-r-2xl'>
+                        <div className="flex flex-col">
+                            <a href="#item1" className="h-[1.7rem] text-dark-green font-ariel text-4xl">^</a> 
+                            <a href="#item1" className='h-3 w-3 bg-dark-green rounded-full text-transparent mb-2 ml-[0.32rem]'>.</a>
+                            <a href="#item2" className='h-3 w-3 bg-dark-green rounded-full text-transparent ml-[0.32rem]'>.</a> 
+                            <a href="#item2" className="h-[1.7rem] text-dark-green font-ariel rotate-180 text-4xl p-0">^</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <div className='hidden sm:block'>
+            <ContactInfo />
             <ContactForm />
         </div>
+    </div>
     )
 }

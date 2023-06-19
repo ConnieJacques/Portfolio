@@ -17,19 +17,23 @@ export function ContactForm() {
     }
 
   return (
-    <section className='h-[80vh] sm:h-[85vh] xl:h-[0]'>
+    <section className='h-[80dvh] xl:h-[0]'>
         {/* <div className='-z-1 absolute top-90 xl:top-20 w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 xl:pt-16 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
-        <div className='absolute z-2 xl:top-[10vh] w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 xl:pt-16 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+        {/* <div className='absolute z-2 xl:top-[10vh] w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 xl:pt-16 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
+
+        <div className='xl:absolute xl:z-2 xl:top-[10dvh] w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 xl:pt-20 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+
 
             <div className='flex flex-row'>
-                <div data-aos='slide-right' data-aos-duration="1500">
-                    <p className='xl:hidden font-raleway font-bold uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Send a message</p>
+                {/* <div data-aos='slide-right' data-aos-duration="1500"> */}
+                <h2 className='flex sm:hidden uppercase font-bold text-2xl xl:text-4xl text-saturated-green underline-offset-4 decoration-dark-green tracking-[0.2em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Send&nbsp;</p><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Message</p></h2>
+                    {/* <p className='xl:hidden font-raleway font-bold uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Send a message</p> */}
                 {/* <p className='font-raleway font-bold self-end uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p> */}
-                </div>
+                {/* </div> */}
             </div>
 
             <form ref={form} onSubmit={sendEmail} className='flex flex-col w-[70vw] xl:w-[35vw]'>
-                <label className='text-white pt-12 pb-1'>Name:</label>
+                <label className='text-white pt-4 xl:pt-12 pb-1'>Name:</label>
                     <input type="text" required name="user_name" defaultValue={null} className='text-black bg-saturated-green pl-2 rounded-md focus:outline focus:outline-dark-green focus:outline-2 focus:outline-offset-2' />
                 <label className='text-white pt-6 xl:pt-4 pb-1'>Email:</label>
                     <input type="email" required name="user_email" className='text-black bg-saturated-green pl-2 rounded-md focus:outline focus:outline-dark-green focus:outline-2 focus:outline-offset-2' />
@@ -40,6 +44,8 @@ export function ContactForm() {
                 </div>
             </form>
         </div>
+
+        
     </section>
   )
 }

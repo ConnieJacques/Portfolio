@@ -11,13 +11,16 @@ export function ContactInfo() {
     const subject = "Interest in Web Development Work";
 
     return (
-        <section className='h-[80vh] sm:h-[85vh]'>
+        <section className='h-[80dvh]'>
             {/* <div className='-z-1 absolute top-20 left-0 text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
-            <div className='absolute z-1 top-[10vh] text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+            {/* <div className='absolute z-1 top-[10vh] text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
                 
+            <div className='text-white font-raleway text-base px-12 xl:pt-36 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+
+
                 <div className='flex flex-row'>
                 <div data-aos='slide-right' data-aos-duration="1500">
-                    <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Contact Me</p>
+                <h2 className='flex uppercase font-bold text-2xl xl:text-4xl text-saturated-green underline-offset-4 decoration-dark-green tracking-[0.2em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Contact&nbsp;</p><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Me</p></h2>
                     {/* <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p> */}
                 </div>
                 </div>
