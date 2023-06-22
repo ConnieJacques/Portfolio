@@ -1,8 +1,12 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-AOS.init();
+import { useEffect } from 'react';
 
 export function HomePage() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return(
         <div className="h-[80dvh]">
             <div className='flex flex-col justify-center items-center h-[80dvh]'>
