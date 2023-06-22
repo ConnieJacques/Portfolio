@@ -31,8 +31,34 @@
     }
     #tsparticles {
         width: 100vw;
-        height: 80vh;
+        height: 80dvh;
         position: absolute;
         z-index: 0;
-      }
+    }
+    .headings {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: saturated-green;
+        letter-spacing: 0.2em;
+    }
+    .dots {
+        height: 0.75rem;
+        width: 0.75rem;
+        background: saturated-green;
+        border-radius: 100%;
+        color: transparent;
+        margin-bottom: 0.5rem;
+        margin-left: 0.32rem
+    }
+    .upArrow {
+        height: 1.7rem;
+        color: saturated-green;
+        font-family: ariel;
+    }
+    .downArrow {
+        height: 1.7rem;
+        color: saturated-green;
+        font-family: ariel;
+        transform: rotate(180deg);
+    }
 }
