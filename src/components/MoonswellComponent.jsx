@@ -108,7 +108,7 @@ export default function MoonswellComponent() {
 
                 <h2 className="uppercase tracking-widest xl:tracking-[0.2rem] font-bold text-sm xl:text-lg text-center text-white">Currently Visible in the Sky:</h2>
                 {/* Mobile View */}
-                <ul className="text-center sm:hidden pl-4">
+                <ul className="text-center sm:hidden">
                     {planets &&
                         planets.map((planet) => (
                             <li key={planet.name} className="m-2 text-center text-xs text-white inline-block sm:text-center">
