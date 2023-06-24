@@ -33,6 +33,10 @@
 **Mongoose:** https://icons8.com/icons/set/odm
 **SQLAlchemy:** https://icons8.com/icons/set/mortar-and-pestle
 
+**Search Bar Icon:** https://icons8.com/icons/set/search
+
+**Planet Icons:** https://iconscout.com/icon-pack/planets-1
+
 
 
 **Netlify:** https://icons8.com/icons/set/netlify
