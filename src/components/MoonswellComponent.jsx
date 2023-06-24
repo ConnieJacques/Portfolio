@@ -88,11 +88,11 @@ export default function MoonswellComponent() {
             <div className='font-raleway text-base px-12 xl:pt-16 xl:pl-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
                 <div className='flex flex-row'>
                     <Slide duration={2000}>
-                        <h2 className='pb-6 pt-8 flex uppercase font-bold text-2xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Moonswell</p></h2>
+                        <h2 className='pb-4 xl:pb-6 pt-8 flex uppercase font-bold text-2xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Moonswell</p></h2>
                     </Slide>
                 </div>
 
-                <div className='flex flex-row justify-center pb-2'>
+                <div className='flex flex-row justify-center pb-4 xl:pb-2'>
                     <form onSubmit={handleInputSubmit} className="flex flex-row w-full items-center justify-center space-x-4">
                         <input 
                         type='text' 
