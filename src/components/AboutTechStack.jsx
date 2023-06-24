@@ -36,102 +36,102 @@ export function TechComponent() {
                     <h2 className='pb-6 pt-8 flex uppercase font-bold text-2xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Tech</p></h2>
                 </Slide>
             </div>
-            <div className='flex flex-row flex-wrap justify-between w-[70dvw] xl:w-[80dvw] text-xs'>
+            <div className='flex flex-row flex-wrap justify-between w-[70dvw] xl:w-[80dvw] text-xs text-white'>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={python} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Python</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Python</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={javascript} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>JavaScript</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>JavaScript</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={HTML} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>HTML</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>HTML</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={bash} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Bash</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Bash</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={SQL} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>SQL</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>SQL</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={NoSQL} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>NoSQL</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>NoSQL</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={yml} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>yml</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>yml</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={markdown} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Markdown</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Markdown</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={jest} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Jest</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Jest</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={flask} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Flask</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Flask</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={express} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Express</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Express</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={macos} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>MacOS</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>MacOS</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={pytest} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Pytest</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Pytest</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={postgresql} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>PostgreSQL</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>PostgreSQL</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={git} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Git</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Git</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={node} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Node.js</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Node.js</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={vscode} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>VS Code</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>VS Code</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={react} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>React</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>React</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={css} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>CSS</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>CSS</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={sass} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>SASS</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>SASS</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={tailwind} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Tailwind CSS</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Tailwind CSS</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={mongodb} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>MongoDB</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>MongoDB</figcaption>
                 </figure>                
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={mongoose} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>Mongoose</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>Mongoose</figcaption>
                 </figure>
                 <figure className='flex flex-col items-center px-2 xl:py-4 xl:px-8'>
                     <img src={sqlalchemy} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
-                    <figcaption className='uppercase tracking-[0.2em] text-dark-green font-bold'>SQLAlchemy</figcaption>
+                    <figcaption className='uppercase tracking-[0.2em] font-bold'>SQLAlchemy</figcaption>
                 </figure>
             </div>
         </div> 

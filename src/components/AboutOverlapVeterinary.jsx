@@ -12,7 +12,7 @@ export function VeterinaryOverlap() {
                     <h2 className='pb-6 pt-8 flex uppercase font-bold text-2xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Vet&nbsp;</p><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Overlap</p></h2>
                 </Slide>
             </div>
-            <p className='text-white text-sm xl:text-lg w-[70vw]'>
+            <div className='text-white text-sm xl:text-lg w-[70vw]'>
             There are many valuable and transferable soft skills that I have mastered in my time in the veterinary world.
             These include, but are certainly not limited to:<br />
             <ol className='list-disc ml-4 xl:leading-loose'>
@@ -20,7 +20,7 @@ export function VeterinaryOverlap() {
                 <li>Amazing verbal and written communication. This skill has been strengthened by my formal study of Media and Communication.</li>
                 <li>Attention to detail. Essential to preventing harm to patients, clients, and colleagues alike as a failure to notice something small can lead to injury, inappropriate treatment or wasted time.</li>
             </ol>
-            </p>
+            </div>
         </div> 
     </section>
     )

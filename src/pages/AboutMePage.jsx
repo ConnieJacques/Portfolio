@@ -65,7 +65,7 @@ export function AboutMePage() {
                                         <a href="#item1" className='h-3 w-3 bg-dark-green rounded-full text-transparent mb-2 ml-[0.32rem]'>.</a>
                                         <a href="#item2" className='h-3 w-3 bg-dark-green rounded-full text-transparent mb-2 ml-[0.32rem]'>.</a>
                                         <a href="#item3" className='h-3 w-3 bg-dark-green rounded-full text-transparent mb-2 ml-[0.32rem]'>.</a> 
-                                        <a href="#item4" className='h-3 w-3 border-dark-green rounded-full border-2 text-transparent mb-2 ml-[0.32rem]'>.</a> 
+                                        <a href="#item4" className='h-3 w-3 border-dark-green rounded-full border-2 text-transparent ml-[0.32rem]'>.</a> 
                                         <a href="#item4" className="h-[1.7rem] text-dark-green font-ariel rotate-180 text-4xl">^</a>
                                     </div>
                                 </div>
