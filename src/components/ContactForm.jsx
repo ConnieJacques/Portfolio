@@ -1,14 +1,16 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css'; 
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser'; 
 import { Slide } from "react-awesome-reveal";
+
 
 export function ContactForm() {
     const form = useRef();
 
+    const [formSubmitted, setFormSubmitted] = useState(false)
+
+
     const sendEmail = (e) => {
-      e.preventDefault();
+      e.preventDefault(e);
   
       emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
         .then((result) => {
@@ -16,12 +18,9 @@ export function ContactForm() {
         }, (error) => {
             console.log(error.text);
         });
-    }
 
-    // useEffect(() => {
-    //     AOS.init();
-    //     AOS.refresh();
-    //   }, []);
+        setFormSubmitted(true)
+    }
 
   return (
     <section className='h-[80dvh] xl:h-[0]'>
@@ -35,12 +34,20 @@ export function ContactForm() {
                 {/* <div data-aos='slide-right' data-aos-duration="1500"> */}
                 {/* <div data-aos='fade-up' data-aos-duration='200'> */}
                 <Slide duration={2000}>
-                    <div className='flex sm:hidden uppercase font-bold text-2xl xl:text-4xl text-saturated-green underline-offset-4 decoration-dark-green tracking-[0.2em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Send&nbsp;</p><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Message</p></div>
+                    <div className='flex sm:hidden uppercase font-bold text-2xl xl:text-4xl text-saturated-green underline-offset-4 decoration-dark-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Send&nbsp;</p><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Message</p></div>
                 </Slide>
                     {/* <p className='xl:hidden font-raleway font-bold uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Send a message</p> */}
                 {/* <p className='font-raleway font-bold self-end uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p> */}
                 {/* </div> */}
             </div>
+
+            {formSubmitted ? 
+            
+            <div className='flex flex-col flex-wrap justify-center items-center w-[70vw] xl:w-[35vw] h-[60dvh] xl:h-[68dvh] pb-20'>
+                <p className='text-2xl'>Your message has been received. I will be in touch shortly.</p>
+            </div>
+
+            :
 
             <form ref={form} onSubmit={sendEmail} className='flex flex-col w-[70vw] xl:w-[35vw]'>
                 <label className='text-white pt-4 xl:pt-12 pb-1'>Name:</label>
@@ -53,9 +60,8 @@ export function ContactForm() {
                     <input type="submit" value="Send" className='bg-saturated-green text-dark-green font-bold uppercase py-1 px-4 rounded-md hover:outline hover:outline-dark-green hover:outline-2 hover:outline-offset-2' />
                 </div>
             </form>
+            }
         </div>
-
-        
     </section>
   )
 }

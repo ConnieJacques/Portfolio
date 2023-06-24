@@ -26,7 +26,7 @@ export function ContactInfo() {
                 <div className='flex flex-row'>
                 {/* <div data-aos='slide-right' data-aos-duration="1500"> */}
                 <Slide duration={2000}>
-                <h2 className='flex uppercase font-bold text-2xl xl:text-4xl text-saturated-green tracking-[0.2em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Contact&nbsp;</p><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Me</p></h2>
+                <h2 className='flex uppercase font-bold text-2xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Contact&nbsp;</p><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Me</p></h2>
                     {/* <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p> */}
                 </Slide>
                 </div>
