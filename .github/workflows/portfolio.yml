@@ -84,6 +84,10 @@ jobs:
           npm run build --if-present
         env:
           CI: true
+          NODE_ENV: production
+          REACT_APP_PUBLIC_KEY: ${{ secrets.REACT_APP_PUBLIC_KEY }}
+          REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
+          REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
       
       - name: Push build to gh-pages branch
         uses: s0/git-publish-subdir-action@develop
