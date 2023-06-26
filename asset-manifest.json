@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2c9c70ca.css",
-    "main.js": "/Portfolio/static/js/main.96118d8d.js",
+    "main.css": "/Portfolio/static/css/main.728fea0c.css",
+    "main.js": "/Portfolio/static/js/main.8da62d79.js",
     "static/media/api-image.png": "/Portfolio/static/media/api-image.1ae7e401e716506ea9ed.png",
     "static/media/terminal-app-image.png": "/Portfolio/static/media/terminal-app-image.794af033357dec9abdf2.png",
     "static/media/Resume-2023.pdf": "/Portfolio/static/media/Resume-2023.c95c797c1f2916b56444.pdf",
@@ -31,11 +31,11 @@
     "static/media/tailwind-icon.svg": "/Portfolio/static/media/tailwind-icon.bad51ecab141a2f3e0c079caec31fd22.svg",
     "static/media/vscode-icon.svg": "/Portfolio/static/media/vscode-icon.1b61e67a9f6ac0293de86de1edf4fcc6.svg",
     "static/media/search-icon.svg": "/Portfolio/static/media/search-icon.d893ac94fbe28805ea8110b6407666d9.svg",
-    "main.2c9c70ca.css.map": "/Portfolio/static/css/main.2c9c70ca.css.map",
-    "main.96118d8d.js.map": "/Portfolio/static/js/main.96118d8d.js.map"
+    "main.728fea0c.css.map": "/Portfolio/static/css/main.728fea0c.css.map",
+    "main.8da62d79.js.map": "/Portfolio/static/js/main.8da62d79.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c9c70ca.css",
-    "static/js/main.96118d8d.js"
+    "static/css/main.728fea0c.css",
+    "static/js/main.8da62d79.js"
   ]
 }
