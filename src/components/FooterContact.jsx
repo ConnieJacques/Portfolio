@@ -11,16 +11,16 @@ export function FooterContact() {
     return (
         <div className='flex flex-row justify-between items-center md:justify-center border-t border-dark-green py-4 px-6 h-[10dvh]'>
             <a href={`mailto:${email}?subject=${encodeURIComponent(subject)}`}>
-                <img src={emailIcon} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
+                <img src={emailIcon} alt="GitHub Icon" className="h-8 w-8 md:mr-3 xl:hover:bg-saturated-green rounded-full"/>
             </a>
             <a href="https://www.linkedin.com/in/connie-jacques-53046b261/" target="_blank" rel="noreferrer">
-                <img src={linkedInIcon} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
+                <img src={linkedInIcon} alt="GitHub Icon" className="h-8 w-8 md:mr-3 xl:hover:bg-saturated-green rounded-full"/>
             </a>
             <a href="https://github.com/ConnieJacques" target="_blank" rel="noreferrer">
-                <img src={gitHubIcon} alt="GitHub Icon" className="h-8 w-8 md:mr-3"/>
+                <img src={gitHubIcon} alt="GitHub Icon" className="h-8 w-8 md:mr-3 xl:hover:bg-saturated-green rounded-full"/>
             </a>
             <a href="https://www.etsy.com/au/shop/CoenobitaCollective" target="_blank" rel="noreferrer">
-                <img src={etsyIcon} alt="GitHub Icon" className="h-9 w-9"/>
+                <img src={etsyIcon} alt="GitHub Icon" className="h-9 w-9 xl:hover:bg-saturated-green rounded-full hover:h-8 hover:w-8 hover:ml-1"/>
             </a>
         </div>
     )
