@@ -20,33 +20,33 @@ export function ContactInfo() {
             {/* <div className='-z-1 absolute top-20 left-0 text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
             {/* <div className='absolute z-1 top-[10vh] text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
                 
-            <div className='text-white font-raleway text-base px-12 xl:pt-36 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+            <div className='relative w-[90vw] md:w-[85vw] md:h-[85dvh] xl:w-[40vw] text-white font-raleway text-sm px-12 md:pt-16 md:pl-20 md:text-2xl xl:pt-32 xl:text-lg lg:py-16 lg:px-24'>
 
 
                 <div className='flex flex-row'>
                 {/* <div data-aos='slide-right' data-aos-duration="1500"> */}
                 <Slide duration={2000}>
-                <h2 className='flex uppercase font-bold text-2xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Contact&nbsp;</p><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Me</p></h2>
+                <h2 className='flex uppercase font-bold text-2xl md:text-3xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Contact&nbsp;</p><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Me</p></h2>
                     {/* <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p> */}
                 </Slide>
                 </div>
 
                 <div>
                     <a href={`mailto:${email}?subject=${encodeURIComponent(subject)}`}>
-                        <div className='flex flex-row items-center pb-6 pt-12'>
-                            <img src={emailIcon} alt="GitHub Icon" className="h-10 w-10 md:h-8 md:w-8 md:mr-3"/><p className='pl-4'>connie.jacques91@gmail.com</p>
+                        <div className='flex flex-row items-center pb-6 md:pb-12 xl:pb-6 pt-12 md:pt-24 xl:pt-12'>
+                            <img src={emailIcon} alt="GitHub Icon" className="h-10 w-10 xl:h-8 xl:w-8 md:mr-3"/><p className='pl-4 underline decoration-dark-green underline-offset-2'>connie.jacques91@gmail.com</p>
                         </div>
                     </a>
 
                     <a href="https://www.linkedin.com/in/connie-jacques-53046b261/" target="_blank" rel="noreferrer">
-                        <div className='flex flex-row items-center py-6'>
-                            <img src={linkedInIcon} alt="GitHub Icon" className="h-10 w-10 md:h-8 md:w-8 md:mr-3"/><p className='pl-4'>/connie-jacques-53046b261/</p>
+                        <div className='flex flex-row items-center py-6 md:py-12 xl:py-6'>
+                            <img src={linkedInIcon} alt="GitHub Icon" className="h-10 w-10 xl:h-8 xl:w-8 md:mr-3"/><p className='pl-4 underline decoration-dark-green underline-offset-2'>/connie-jacques-53046b261/</p>
                         </div>
                     </a>
 
                     <a href="https://github.com/ConnieJacques" target="_blank" rel="noreferrer">
-                        <div className='flex flex-row items-center pt-6'>
-                            <img src={gitHubIcon} alt="GitHub Icon" className="h-10 w-10 md:h-8 md:w-8 md:mr-3"/><p className='pl-4'>github.com/ConnieJacques</p>
+                        <div className='flex flex-row items-center pt-6 md:pt-12 xl:pt-6'>
+                            <img src={gitHubIcon} alt="GitHub Icon" className="h-10 w-10 xl:h-8 xl:w-8 md:mr-3"/><p className='pl-4 underline decoration-dark-green underline-offset-2'>github.com/ConnieJacques</p>
                         </div>
                     </a>
                 </div>

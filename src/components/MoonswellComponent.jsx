@@ -85,20 +85,20 @@ export default function MoonswellComponent() {
 
     return (
         <section className='h-[80dvh] w-[90vw] top-[10dvh]'>
-            <div className='font-raleway text-base px-12 xl:pt-16 xl:pl-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+            <div className='font-raleway text-base px-12 md:pt-16 md:pl-20 xl:pt-16 xl:pl-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
                 <div className='flex flex-row'>
                     <Slide duration={2000}>
-                        <h2 className='pb-4 xl:pb-6 pt-8 flex uppercase font-bold text-2xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Moonswell</p></h2>
+                        <h2 className='pb-4 xl:pb-6 pt-8 flex uppercase font-bold text-2xl md:text-3xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Moonswell</p></h2>
                     </Slide>
                 </div>
 
-                <div className='flex flex-row justify-center pb-4 xl:pb-2'>
+                <div className='flex flex-row justify-center pb-4 md:pb-6 xl:pb-2'>
                     <form onSubmit={handleInputSubmit} className="flex flex-row w-full items-center justify-center space-x-4">
                         <input 
                         type='text' 
                         placeholder='search location...' 
                         onChange={event => setSearchLocationName(event.target.value)}
-                        className='text-black text-base xl:text-lg bg-saturated-green pl-4 rounded-md focus:outline focus:outline-dark-green focus:outline-2 focus:outline-offset-2 capitalize placeholder:lowercase xl:w-[30dvw]' 
+                        className='text-black text-base md:text-lg bg-saturated-green pl-4 rounded-md focus:outline focus:outline-dark-green focus:outline-2 focus:outline-offset-2 capitalize placeholder:lowercase md:w-[30dvw]' 
                         />
                         <button type='submit' className='bg-transparent border-none cursor-pointer p-0 m-0'>
                             <div className='text-white cursor-pointer transition ease-out hover:scale-125'><img src={searchIcon} alt='search icon' className="h-6 w-6 mx-auto"/></div>
@@ -106,7 +106,7 @@ export default function MoonswellComponent() {
                     </form>
                 </div>
 
-                <h2 className="uppercase tracking-widest xl:tracking-[0.3rem] font-bold text-sm xl:text-lg text-center text-white">Currently Visible in the Sky:</h2>
+                <h2 className="uppercase tracking-widest md:tracking-[0.2rem] xl:tracking-[0.3rem] font-bold text-sm md:text-base xl:text-lg text-center text-white">Currently Visible in the Sky:</h2>
                 {/* Mobile View */}
                 <ul className="text-center sm:hidden">
                     {planets &&
@@ -145,14 +145,14 @@ export default function MoonswellComponent() {
                         ))}
                 </ul>
 
-                <p className='font-raleway w-[75vw] text-base text-white text-xs xl:text-sm xl:pt-2'>Created as a collaborative hackathon project, 
+                <p className='font-raleway w-[75vw] text-base text-white text-xs md:text-base xl:text-sm md:pt-4 xl:pt-2'>Created as a collaborative hackathon project, 
                 this single page application built in React displays news, weather, tidal and lunar event data. 
                 It features a custom web scraper to obtain public tidal data from BOM website, 
                 demonstrates understanding of modern functional components and hooks,
                 was styled with Tailwind CSS, 
                 and uses Netlify functions to secure API secret keys.
-                <h6 className='font-semibold uppercase text-saturated-green tracking-widest xl:tracking-[0.2rem] w-fit pt-2'>GitHub Repository: </h6><a href='https://github.com/reactronauts/untitled-tide-app' className='underline decoration-dark-green underline-offset-2'>https://github.com/reactronauts/untitled-tide-app</a><br />
-                <h6 className='font-semibold uppercase text-saturated-green tracking-widest xl:tracking-[0.2rem] w-fit pt-2'>Deployed Site: </h6><a href='https://moonswell.netlify.app/' className='underline decoration-dark-green underline-offset-2'>https://moonswell.netlify.app/</a></p>
+                <h6 className='font-semibold uppercase text-saturated-green tracking-widest xl:tracking-[0.2rem] w-fit pt-2 md:pt-4 xl:pt-2'>GitHub Repository: </h6><a href='https://github.com/reactronauts/untitled-tide-app' className='underline decoration-dark-green underline-offset-2'>https://github.com/reactronauts/untitled-tide-app</a><br />
+                <h6 className='font-semibold uppercase text-saturated-green tracking-widest xl:tracking-[0.2rem] w-fit pt-2 md:pt-4 xl:pt-2'>Deployed Site: </h6><a href='https://moonswell.netlify.app/' className='underline decoration-dark-green underline-offset-2'>https://moonswell.netlify.app/</a></p>
             </div>
         </section>
     )

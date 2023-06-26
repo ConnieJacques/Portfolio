@@ -7,10 +7,10 @@ export default function KingAPIComponent() {
 
     return (
         <section className='h-[80dvh] w-[90vw] top-[10dvh]'>
-            <div className='h-[80dvh] font-raleway text-base px-12 xl:pt-16 xl:pl-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+            <div className='h-[80dvh] font-raleway text-base px-12 md:pt-16 md:pl-20 xl:pt-16 xl:pl-32 sm:text-6xl md:text-8xl'>
                 <div className='flex flex-row'>
                     <Slide duration={2000}>
-                        <h2 className='pb-4 xl:pb-6 pt-8 flex uppercase font-bold text-2xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='hidden xl:block first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>Stephen&nbsp;</p><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>King&nbsp;</p><p className='first-letter:text-3xl xl:first-letter:text-5xl first-letter:text-dark-green'>API</p></h2>
+                        <h2 className='pb-4 xl:pb-6 pt-8 flex uppercase font-bold text-2xl md:text-3xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='hidden md:block first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Stephen&nbsp;</p><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>King&nbsp;</p><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>API</p></h2>
                     </Slide>
                 </div>
 
@@ -19,7 +19,7 @@ export default function KingAPIComponent() {
                         <img src={apiImage} alt='API 200 status responses' className='w-[73vw] xl:w-[35vw] rounded-2xl border-2 border-dark-green' />
                     </figure>
 
-                    <p className='font-raleway w-[75vw] xl:pl-28 pt-8 text-base text-white text-xs xl:text-base xl:pt-0'> 
+                    <p className='font-raleway w-[75vw] xl:pl-28 pt-8 text-base text-white text-xs md:text-base xl:pt-0'> 
                     The Stephen King API is a webserver API written in Python with the Insomnia development platform.
                     It features, MVC Architecture,
                     JWT authentication for authentication and authorisation verification,
