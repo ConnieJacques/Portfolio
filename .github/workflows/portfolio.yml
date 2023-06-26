@@ -5,21 +5,29 @@ on:
     branches:
       - main
 
+# Sets permissions missed by the web GUI
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+
+
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
-    strategy:
-      matrix:
-        node-version: [18.x]
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js LTS
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 'lts/*'
 
       - name: Build ReactJS app
         run: |
@@ -27,11 +35,18 @@ jobs:
           npm run build --if-present
         env:
           CI: true
+          NODE_ENV: production
+          REACT_APP_SOME_CUSTOM_SECRET: ${{ secrets.SOME_CUSTOM_SECRET }}
       
-      - name: Push build to gh-pages branch
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: gh-pages
-          FOLDER: build
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Log build directory as a sanity check
+        run: find -maxdepth 2 -type d -name 'build'
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: './build'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
