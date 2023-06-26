@@ -68,17 +68,17 @@ export function NavBar() {
                 </section>
                 
                     <nav>
-                        <ul className="DESKTOP-MENU hidden space-x-0 text-dark-green font-raleway uppercase font-medium sm:flex sm:text-sm md:text-lg md:text-xl">
-                            <li>
+                        <ul className="DESKTOP-MENU hidden space-x-0 text-dark-green font-raleway uppercase font-medium xl:tracking-[0.2rem] sm:flex sm:text-sm md:text-lg md:text-xl">
+                            <li className='xl:hover:text-saturated-green'>
                                 <NavLink to='/' style={({isActive}) => isActive ? desktopActiveNavStyle : desktopInactiveNavStyle}>Home</NavLink>
                             </li>
-                            <li>
+                            <li className='xl:hover:text-saturated-green'>
                                 <NavLink to='/projects' style={({isActive}) => isActive ? desktopActiveNavStyle : desktopInactiveNavStyle}>Projects</NavLink>
                             </li>
-                            <li>
+                            <li className='xl:hover:text-saturated-green'>
                                 <NavLink to='/about' style={({isActive}) => isActive ? desktopActiveNavStyle : desktopInactiveNavStyle}>About</NavLink>
                             </li>
-                            <li className="md:pr-8">
+                            <li className='xl:hover:text-saturated-green md:pr-8'>
                                 <NavLink to='/contact' style={({isActive}) => isActive ? desktopActiveNavStyle : desktopInactiveNavStyle}>Contact</NavLink>
                             </li>
                         </ul>
