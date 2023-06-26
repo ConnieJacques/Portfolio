@@ -106,7 +106,7 @@ export default function MoonswellComponent() {
                     </form>
                 </div>
 
-                <h2 className="uppercase tracking-widest xl:tracking-[0.2rem] font-bold text-sm xl:text-lg text-center text-white">Currently Visible in the Sky:</h2>
+                <h2 className="uppercase tracking-widest xl:tracking-[0.3rem] font-bold text-sm xl:text-lg text-center text-white">Currently Visible in the Sky:</h2>
                 {/* Mobile View */}
                 <ul className="text-center sm:hidden">
                     {planets &&
@@ -151,8 +151,8 @@ export default function MoonswellComponent() {
                 demonstrates understanding of modern functional components and hooks,
                 was styled with Tailwind CSS, 
                 and uses Netlify functions to secure API secret keys.
-                <h6 className='font-semibold uppercase tracking-widest w-fit pt-2'>GitHub Repository: </h6><a href='https://github.com/reactronauts/untitled-tide-app' className='underline decoration-dark-green underline-offset-2'>https://github.com/reactronauts/untitled-tide-app</a><br />
-                <h6 className='font-semibold uppercase tracking-widest w-fit pt-2'>Deployed Site: </h6><a href='https://moonswell.netlify.app/' className='underline decoration-dark-green underline-offset-2'>https://moonswell.netlify.app/</a></p>
+                <h6 className='font-semibold uppercase text-saturated-green tracking-widest xl:tracking-[0.2rem] w-fit pt-2'>GitHub Repository: </h6><a href='https://github.com/reactronauts/untitled-tide-app' className='underline decoration-dark-green underline-offset-2'>https://github.com/reactronauts/untitled-tide-app</a><br />
+                <h6 className='font-semibold uppercase text-saturated-green tracking-widest xl:tracking-[0.2rem] w-fit pt-2'>Deployed Site: </h6><a href='https://moonswell.netlify.app/' className='underline decoration-dark-green underline-offset-2'>https://moonswell.netlify.app/</a></p>
             </div>
         </section>
     )
