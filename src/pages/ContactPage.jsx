@@ -4,7 +4,7 @@ import { ContactInfo } from "../components/ContactInfo";
 export function ContactPage() {
 
     return (
-        <div>
+        <section>
             <div className='h-[80dvh] xl:hidden'>
                 <div className='absolute z-1 top-[10dvh]'>
                     <div className="carousel carousel-vertical w-[90vw] h-[80dvh] pt-0">
@@ -42,6 +42,6 @@ export function ContactPage() {
             <ContactInfo />
             <ContactForm />
         </div>
-    </div>
+    </section>
     )
 }

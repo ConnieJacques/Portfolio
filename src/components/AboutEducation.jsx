@@ -3,7 +3,6 @@ import { Slide } from "react-awesome-reveal";
 
 export function EducationComponent() {
     
-
     return (
         <section className='h-[80dvh] w-[90vw] top-[10dvh]'>
             <div className='font-raleway text-base px-12 md:pt-24 md:pl-20 xl:pt-16 xl:pl-32 md:text-lg lg:py-16 lg:px-24'>
@@ -35,6 +34,6 @@ export function EducationComponent() {
                     </div>
                 </p>
             </div> 
-    </section>
+        </section>
     )
 }

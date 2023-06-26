@@ -4,7 +4,6 @@ import apiImage from '../images/PortfolioImages/api-image.png'
 
 export default function KingAPIComponent() {
 
-
     return (
         <section className='h-[80dvh] w-[90vw] top-[10dvh]'>
             <div className='h-[80dvh] font-raleway text-base px-12 md:pt-16 md:pl-20 xl:pt-16 xl:pl-32 sm:text-6xl md:text-8xl'>

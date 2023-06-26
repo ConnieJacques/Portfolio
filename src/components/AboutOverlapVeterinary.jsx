@@ -2,7 +2,6 @@ import { Slide } from "react-awesome-reveal";
 
 
 export function VeterinaryOverlap() {
-    
 
     return (
         <section className='h-[80dvh] w-[90vw] top-[10dvh]'>
@@ -22,6 +21,6 @@ export function VeterinaryOverlap() {
                 </ol>
                 </div>
             </div> 
-    </section>
+        </section>
     )
 }

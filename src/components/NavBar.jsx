@@ -18,7 +18,7 @@ export function NavBar() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return(
-        <div className="flex items-center font-raleway">
+        <section className="flex items-center font-raleway">
             <div>
                 <section className="MOBILE-MENU flex sm:hidden mr-4">
                     <div className="HAMBURGER-ICON space-y-2" 
@@ -84,6 +84,6 @@ export function NavBar() {
                         </ul>
                     </nav>
             </div>
-        </div>
+        </section>
     )
 }

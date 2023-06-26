@@ -4,7 +4,6 @@ import terminalAppImage from '../images/PortfolioImages/terminal-app-image.png'
 
 export default function TerminalAppGameComponent() {
 
-
     return (
         <section className='h-[80dvh] w-[90vw] top-[10dvh]'>
             <div className='h-[80dvh] font-raleway text-base px-12 md:pt-16 md:pl-20 xl:pt-16 xl:pl-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>

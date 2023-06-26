@@ -1,6 +1,3 @@
-
-
-
 export function Copyright() {
     const year = new Date().getFullYear()
 

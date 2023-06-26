@@ -27,14 +27,9 @@ export function ContactForm() {
         <div className='xl:absolute xl:z-2 xl:top-[10dvh] w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 md:pt-32 xl:pt-20 md:text-lg md:pl-20 xl:text-lg lg:py-16 lg:px-24'>
 
             <div className='flex flex-row'>
-                {/* <div data-aos='slide-right' data-aos-duration="1500"> */}
-                {/* <div data-aos='fade-up' data-aos-duration='200'> */}
                 <Slide duration={2000}>
                     <div className='flex xl:hidden uppercase font-bold text-2xl md:text-3xl xl:text-4xl text-saturated-green underline-offset-4 decoration-dark-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Send&nbsp;</p><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Message</p></div>
                 </Slide>
-                    {/* <p className='xl:hidden font-raleway font-bold uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>Send a message</p> */}
-                {/* <p className='font-raleway font-bold self-end uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p> */}
-                {/* </div> */}
             </div>
 
             {formSubmitted ? 

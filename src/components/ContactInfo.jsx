@@ -2,33 +2,19 @@ import gitHubIcon from '../images/icons8-github.svg'
 import linkedInIcon from '../images/icons8-linkedin.svg'
 import emailIcon from '../images/icons8-email-50.png'
 import { Slide } from "react-awesome-reveal";
-// import AOS from 'aos';
-// import 'aos/dist/aos.css'; 
-// import { useEffect } from 'react';
+
 
 export function ContactInfo() {
-    // useEffect(() => {
-    //     AOS.init();
-    //     AOS.refresh();
-    //   }, []);
-
     const email = "connie.jacques91@gmail.com";
     const subject = "Interest in Web Development Work";
 
     return (
-        <section className='h-[80dvh]'>
-            {/* <div className='-z-1 absolute top-20 left-0 text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
-            {/* <div className='absolute z-1 top-[10vh] text-white font-raleway text-base px-12 pt-32 xl:pt-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'> */}
-                
+        <section className='h-[80dvh]'>                
             <div className='relative w-[90vw] md:w-[85vw] md:h-[85dvh] xl:w-[40vw] text-white font-raleway text-sm px-12 md:pt-16 md:pl-20 md:text-2xl xl:pt-32 xl:text-lg lg:py-16 lg:px-24'>
-
-
                 <div className='flex flex-row'>
-                {/* <div data-aos='slide-right' data-aos-duration="1500"> */}
-                <Slide duration={2000}>
-                <h2 className='flex uppercase font-bold text-2xl md:text-3xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Contact&nbsp;</p><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Me</p></h2>
-                    {/* <p className='uppercase font-bold text-4xl text-saturated-green underline underline-offset-4 decoration-dark-green'>e</p> */}
-                </Slide>
+                    <Slide duration={2000}>
+                        <h2 className='flex uppercase font-bold text-2xl md:text-3xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Contact&nbsp;</p><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Me</p></h2>
+                    </Slide>
                 </div>
 
                 <div>
