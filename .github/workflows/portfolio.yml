@@ -37,9 +37,9 @@ jobs:
           CI: true
           NODE_ENV: production
           REACT_APP_SOME_CUSTOM_SECRET: ${{ secrets.SOME_CUSTOM_SECRET }}
-          # REACT_APP_PUBLIC_KEY: ${{ secrets.REACT_APP_PUBLIC_KEY }}
-          # REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
-          # REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
+          REACT_APP_PUBLIC_KEY: ${{ secrets.REACT_APP_PUBLIC_KEY }}
+          REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
+          REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
       
       - name: Log build directory as a sanity check
         run: find -maxdepth 2 -type d -name 'build'
