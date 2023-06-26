@@ -1,4 +1,5 @@
 import { Slide } from "react-awesome-reveal";
+import resume from '../files/Resume-2023.pdf'
 
 
 export function AboutMeComponent() {
@@ -17,6 +18,9 @@ export function AboutMeComponent() {
                 My journey into web development began when I decided it was time to begin a transition out of my current career and enrolled in Coder Academy's 10 month coding boot camp in October 2022.<br /><br />
                 I have experience with OOP languages, MVC architecture, SQL and NoSQL database design and manipulation, test driven development, agile methodology and version control, among other things.
             </p>
+            <div className='flex flex-row justify-center pt-8'>
+                <a href={resume} target='_blank' rel='noopener noreferrer'><button label='resume' className='bg-saturated-green text-dark-green font-bold uppercase py-1 px-4 rounded-md hover:outline hover:outline-dark-green hover:outline-2 hover:outline-offset-2'>Resume</button></a>
+            </div>
         </div> 
     </section>
     )
