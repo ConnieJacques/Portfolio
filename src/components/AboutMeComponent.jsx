@@ -1,5 +1,5 @@
 import { Slide } from "react-awesome-reveal";
-import resume from '../files/Resume-2023.pdf'
+import resume from '../files/Connie_Jacques_Resume.pdf'
 
 
 export function AboutMeComponent() {
