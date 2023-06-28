@@ -49,16 +49,16 @@ export function NavBar() {
                             <nav>
                                 <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-end text-lg underline-offset-[5px]">
                                     <li className="text-dark-green uppercase pb-12 pr-5">
-                                        <NavLink to='/' style={({isActive}) => isActive ? activeNavStyle : undefined}>Home</NavLink>
+                                        <NavLink to='/' onClick={() => setIsNavOpen(false)} style={({isActive}) => isActive ? activeNavStyle : undefined}>Home</NavLink>
                                     </li>
                                     <li className="text-dark-green uppercase pb-12 pr-5">
-                                        <NavLink to='/projects' style={({isActive}) => isActive ? activeNavStyle : undefined}>Projects</NavLink>
+                                        <NavLink to='/projects' onClick={() => setIsNavOpen(false)} style={({isActive}) => isActive ? activeNavStyle : undefined}>Projects</NavLink>
                                     </li>
                                     <li className="text-dark-green uppercase pb-12 pr-5">
-                                        <NavLink to='/about' style={({isActive}) => isActive ? activeNavStyle : undefined}>About</NavLink>
+                                        <NavLink to='/about' onClick={() => setIsNavOpen(false)} style={({isActive}) => isActive ? activeNavStyle : undefined}>About</NavLink>
                                     </li>
                                     <li className="text-dark-green uppercase pr-5">
-                                        <NavLink to='/contact' style={({isActive}) => isActive ? activeNavStyle : undefined}>Contact</NavLink>
+                                        <NavLink to='/contact' onClick={() => setIsNavOpen(false)} style={({isActive}) => isActive ? activeNavStyle : undefined}>Contact</NavLink>
                                     </li>
                                 </ul>
                             </nav>
