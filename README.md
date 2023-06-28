@@ -4,7 +4,7 @@ Hi I'm Connie and this is my portfolio of work.
 
 Have a look around, dig into the code and check out the live site to get to know me, my stack, my work and where I'm going.
 
-The deployed site is available at: https://conniejacques.github.io/Portfolio/
+The deployed site is available at: https://conniejacques.netlify.app/
 
 ## Credit where credit is due...
 
