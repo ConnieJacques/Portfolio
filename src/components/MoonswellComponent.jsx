@@ -85,7 +85,7 @@ export default function MoonswellComponent() {
 
     return (
         <section className='h-[80dvh] w-[90vw] top-[10dvh]'>
-            <div className='font-raleway text-base px-12 md:pt-16 md:pl-20 xl:pt-16 xl:pl-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
+            <div className='font-raleway text-base pl-10 sm:pl-12 pr-12 md:pt-16 md:pl-20 xl:pt-16 xl:pl-32 sm:text-6xl md:text-8xl lg:text-lg lg:py-16 lg:px-24'>
                 <div className='flex flex-row'>
                     <Slide duration={2000}>
                         <h2 className='pb-4 xl:pb-6 pt-8 flex uppercase font-bold text-2xl md:text-3xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Moonswell</p></h2>
@@ -147,7 +147,7 @@ export default function MoonswellComponent() {
 
                 <p className='font-raleway w-[75vw] text-base text-white text-xs md:text-base xl:text-sm md:pt-4 xl:pt-2'>Created as a collaborative hackathon project, 
                 this single page application built in React displays news, weather, tidal and lunar event data. 
-                It features a custom web scraper to obtain public tidal data from BOM website, 
+                It features a custom web scraper to obtain public tidal data from the BOM website, 
                 demonstrates understanding of modern functional components and hooks,
                 was styled with Tailwind CSS, 
                 and uses Netlify functions to secure API secret keys.

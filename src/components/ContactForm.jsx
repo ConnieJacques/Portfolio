@@ -24,7 +24,7 @@ export function ContactForm() {
 
   return (
     <section className='h-[80dvh] xl:h-[0]'>
-        <div className='xl:absolute xl:z-2 xl:top-[10dvh] w-[85vw] font-raleway left-0 xl:left-[50vw] text-white text-base px-12 pt-16 md:pt-32 xl:pt-20 md:text-lg md:pl-20 xl:text-lg lg:py-16 lg:px-24'>
+        <div className='xl:absolute xl:z-2 xl:top-[10dvh] w-[85vw] xl:w-[45vw] font-raleway left-0 xl:left-[45vw] text-white text-base px-12 pt-16 md:pt-32 xl:pt-20 md:text-lg md:pl-20 xl:text-lg lg:py-16 lg:px-24'>
 
             <div className='flex flex-row'>
                 <Slide duration={2000}>

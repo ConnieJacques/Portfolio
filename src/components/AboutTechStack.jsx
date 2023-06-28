@@ -29,13 +29,13 @@ export function TechComponent() {
 
     return (
         <section className='h-[80dvh] w-[90vw] top-[10dvh]'>
-            <div className='font-raleway text-base px-12 md:pt-24 md:pl-20 xl:pt-16 xl:pl-32 md:text-lg lg:py-16 lg:px-24'>
+            <div className='font-raleway text-base pl-10 pr-12 sm:pl-12 md:pt-24 md:pl-20 xl:pt-16 xl:pl-32 md:text-lg lg:py-16 lg:px-24'>
                 <div className='flex flex-row'>
                     <Slide duration={2000}>
                         <h2 className='pb-6 md:pb-12 xl:pb-6 pt-8 flex uppercase font-bold text-2xl md:text-3xl xl:text-4xl text-saturated-green tracking-[0.2em] xl:tracking-[0.3em]'><p className='first-letter:text-3xl md:first-letter:text-4xl xl:first-letter:text-5xl first-letter:text-dark-green'>Tech</p></h2>
                     </Slide>
                 </div>
-                <div className='flex flex-row flex-wrap justify-between w-[70dvw] xl:w-[80dvw] text-xs text-white'>
+                <div className='flex flex-row flex-wrap justify-between w-[75dvw] xl:w-[80dvw] text-xs text-white'>
                     <figure className='flex flex-col items-center px-2 md:py-4 md:px-8'>
                         <img src={python} alt="GitHub Icon" className="h-8 w-8"/>
                         <figcaption className='uppercase tracking-[0.2em] font-bold'>Python</figcaption>
